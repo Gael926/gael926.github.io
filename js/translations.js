@@ -21,16 +21,16 @@ const translations = {
 
     // Hero
     hero_name: 'Ga\u00ebl Le Reun',
-    hero_subtitle: '\u00c9tudiant ing\u00e9nieur en Informatique (ESAIP) - Sp\u00e9cialisation IA',
-    hero_availability_text: 'Recherche alternance 2026/2027 \u00b7 IA & Data',
-    hero_tagline: 'Je con\u00e7ois des solutions IA concr\u00e8tes, du pipeline de donn\u00e9es au mod\u00e8le en production. Toujours avec un objectif : <strong class="text-gray-900 font-semibold">simplicit\u00e9, robustesse et impact r\u00e9el</strong>.',
+    hero_subtitle: 'Ing\u00e9nieur IA en alternance chez <span class="text-gradient-animated">ARQUUS</span> \u00b7 ESAIP, majeure IA',
+    hero_availability_text: 'Alternance chez ARQUUS \u00b7 Septembre 2026 - Septembre 2027',
+    hero_tagline: 'J\'administre une plateforme d\'IA g\u00e9n\u00e9rative on-premise et je construis des syst\u00e8mes ML et LLM qui tiennent en production, <strong class="text-gray-900 font-semibold">mesur\u00e9s plut\u00f4t qu\'estim\u00e9s</strong>.',
     button_contact: 'Me contacter',
     button_experiences: 'Voir mes exp\u00e9riences',
     button_cv: 'T\u00e9l\u00e9charger mon CV',
 
     // Stats
-    stat_internships_number: '2',
-    stat_internships_label: 'Stages IA',
+    stat_internships_number: '3',
+    stat_internships_label: 'Exp\u00e9riences IA',
     stat_projects_number: '7+',
     stat_projects_label: 'Projets ML',
     stat_countries_number: '3',
@@ -39,18 +39,19 @@ const translations = {
     stat_toeic_label: 'TOEIC',
 
     // What I'm looking for
-    search_heading: 'Ce que je recherche',
+    search_heading: 'Aujourd\'hui',
     search_contract: 'Alternance',
-    search_subtitle: 'Alternance / Contrat de professionnalisation \u00b7 5\u00e8me ann\u00e9e ESAIP',
-    search_period: 'Oct 2026 - Oct 2027',
-    search_domains: 'IA, Data Science, ML, Dev',
-    search_location: 'France (mobilit\u00e9 nationale)',
+    search_type: 'Alternance chez ARQUUS',
+    search_subtitle: 'Alternance chez ARQUUS \u00b7 Derni\u00e8re ann\u00e9e ESAIP',
+    search_period: 'Septembre 2026 - Septembre 2027',
+    search_domains: 'IA g\u00e9n\u00e9rative on-premise, ML, LLM',
+    search_location: 'Versailles \u00b7 France (mobilit\u00e9 nationale)',
 
     // Formation
     formation_heading: 'Formations',
     formation_esaip_title: 'Cycle Ing\u00e9nieur<br>Informatique et R\u00e9seaux<br>Majeure IA',
     formation_esaip_school: 'ESAIP, Angers',
-    formation_esaip_date: 'Depuis 2022<br>Actuellement en 4\u00e8me ann\u00e9e',
+    formation_esaip_date: '2022 - 2027<br>Derni\u00e8re ann\u00e9e, en alternance',
     formation_esaip_desc: 'Machine Learning, Deep Learning, Data Engineering, Optimisation multicrit\u00e8res, Traitement d\'images, Cybers\u00e9curit\u00e9, DevOps, D\u00e9veloppement Backend, R\u00e9seaux, Admin Windows, Gestion de projets agiles',
     formation_erasmus_title: 'Semestre Erasmus',
     formation_erasmus_school: 'Obuda University, Budapest',
@@ -68,24 +69,33 @@ const translations = {
     experiences_heading: 'Exp\u00e9riences professionnelles',
     experiences_intro: 'Des missions vari\u00e9es, de la conception d\'infrastructures IA \u00e0 la gestion op\u00e9rationnelle de terrain.',
 
+    // ARQUUS
+    exp_arquus_title: 'Alternant Ing\u00e9nieur solutions IA<br>on-premise',
+    exp_arquus_location: 'Versailles',
+    exp_arquus_date: 'Septembre 2026 - aujourd\'hui',
+    exp_arquus_mission_1: 'Administration et fiabilisation d\'une plateforme d\'IA g\u00e9n\u00e9rative on-premise (LM Studio, OpenWebUI, Nginx)',
+    exp_arquus_mission_2: 'Industrialisation du pr\u00e9traitement documentaire : extraction, normalisation, indexation, pertinence des r\u00e9ponses',
+    exp_arquus_mission_3: 'D\u00e9veloppement d\'outils internes en Python et enrichissement de l\'outillage MCP mis \u00e0 disposition des agents',
+    exp_arquus_mission_4: 'S\u00e9curisation des acc\u00e8s, documentation et accompagnement \u00e0 l\'adoption par les \u00e9quipes m\u00e9tier',
+
     // Tatin
     exp0_badge: 'Stage R&D',
     exp0_title_page: 'Tatin - Stagiaire Automatisation & Int\u00e9gration IA',
     exp0_date_page: 'T\u00e9l\u00e9travail \u00b7 Janvier 2026 - F\u00e9vrier 2026',
-    exp0_mission_1_page: 'Conception et d\u00e9veloppement de NutriTracker, une application PWA de suivi nutritionnel par dict\u00e9e vocale (saisie des repas en < 5s gr\u00e2ce au NLP).',
+    exp0_mission_1_page: 'D\u00e9veloppement complet de NutriTracker, PWA de suivi nutritionnel, du sch\u00e9ma de donn\u00e9es \u00e0 l\'interface',
     exp0_mission_2_page: 'D\u00e9ploiement de workflows d\'automatisation complexes avec n8n (Twilio, Resend, authentification Google).',
     exp0_mission_3_page: 'Int\u00e9gration d\'un parsing LLM en cascade (Groq/Cerebras) pour l\'analyse NLP des dict\u00e9es.',
     exp0_mission_4_page: 'Architecture Cloud et gestion de base de donn\u00e9es relationnelles sur Supabase.',
     exp0_title: 'Stagiaire Automatisation &<br>Int\u00e9gration IA',
     exp0_location: 'La Roche-sur-Yon',
     exp0_date: 'Janvier 2026 - F\u00e9vrier 2026',
-    exp0_mission_1: 'D\u00e9veloppement de A \u00e0 Z de l\'application full-stack NutriTracker (PWA) (saisie utilisateur 5x plus rapide gr\u00e2ce \u00e0 l\'IA)',
+    exp0_mission_1: 'D\u00e9veloppement complet de NutriTracker, PWA de suivi nutritionnel, du sch\u00e9ma de donn\u00e9es \u00e0 l\'interface',
     exp0_mission_2: 'D\u00e9ploiement de workflows d\'automatisation complexes avec n8n (Twilio, Resend, API)',
     exp0_mission_3: 'Int\u00e9gration de mod\u00e8les LLM en cascade (Groq/Cerebras) pour l\'analyse fine de dict\u00e9es vocales',
     exp0_mission_4: 'Mise en place de l\'architecture backend et de l\'authentification avec Supabase',
 
     // Alitheia
-    exp1_title: 'Stagiaire D\u00e9veloppement IA & Infrastructure',
+    exp1_title: 'Stagiaire D\u00e9veloppement IA & Traitement documentaire',
     exp1_location: 'Budapest',
     exp1_date: 'Juin 2025 - Ao\u00fbt 2025',
     exp1_mission_1: 'D\u00e9veloppement d\'un pipeline Python pour le traitement automatis\u00e9 de <strong class="text-gray-900">40 000 pages manuscrites</strong>',
@@ -212,7 +222,7 @@ const translations = {
 
     // Contact
     contact_heading: 'Contactez-moi',
-    contact_intro: 'Je suis actuellement \u00e0 la <strong class="text-blue-600">recherche d\'une alternance pour ma 5\u00e8me ann\u00e9e (octobre 2026 - octobre 2027)</strong>. N\'h\u00e9sitez pas \u00e0 me contacter pour \u00e9changer sur mon profil.',
+    contact_intro: 'Je termine mon dipl\u00f4me d\'ing\u00e9nieur ESAIP en septembre 2027. N\'h\u00e9sitez pas \u00e0 me contacter pour \u00e9changer sur mon profil ou sur un projet.',
     contact_email_label: 'Email',
     contact_phone_label: 'T\u00e9l\u00e9phone',
     contact_linkedin_label: 'LinkedIn',
@@ -229,7 +239,7 @@ const translations = {
     footer_github: 'GitHub',
     footer_linkedin: 'LinkedIn',
     footer_signature: '\u00a9 2026 Ga\u00ebl Le Reun. Tous droits r\u00e9serv\u00e9s.',
-    footer_cta: 'Disponible pour une alternance \u00e0 partir d\'octobre 2026 - Contactez-moi',
+    footer_cta: 'Alternant IA chez ARQUUS jusqu\'en septembre 2027 \u00b7 Contactez-moi',
 
     // Formation Tags
     tag_ml: 'Machine Learning',
@@ -271,16 +281,16 @@ const translations = {
 
     // Hero
     hero_name: 'Ga\u00ebl Le Reun',
-    hero_subtitle: 'Computer engineering student (ESAIP) - AI specialization',
-    hero_availability_text: 'Seeking Apprenticeship 2026/2027 \u00b7 AI & Data',
-    hero_tagline: 'I build practical AI solutions, from data pipelines to models in production. Always aiming for <strong class="text-gray-900 font-semibold">simplicity, robustness and real impact</strong>.',
+    hero_subtitle: 'AI engineer, apprentice at <span class="text-gradient-animated">ARQUUS</span> \u00b7 ESAIP, AI major',
+    hero_availability_text: 'Apprenticeship at ARQUUS \u00b7 September 2026 - September 2027',
+    hero_tagline: 'I run an on-premise generative AI platform and build ML and LLM systems that hold up in production, <strong class="text-gray-900 font-semibold">measured rather than estimated</strong>.',
     button_contact: 'Contact me',
     button_experiences: 'View my experiences',
     button_cv: 'Download my resume',
 
     // Stats
-    stat_internships_number: '2',
-    stat_internships_label: 'AI Internships',
+    stat_internships_number: '3',
+    stat_internships_label: 'AI roles',
     stat_projects_number: '7+',
     stat_projects_label: 'ML Projects',
     stat_countries_number: '3',
@@ -289,18 +299,19 @@ const translations = {
     stat_toeic_label: 'TOEIC',
 
     // What I'm looking for
-    search_heading: 'Open to Opportunities',
+    search_heading: 'Currently',
     search_contract: 'Work-study / Apprenticeship',
-    search_subtitle: 'Apprenticeship / Work-study contract \u00b7 5th year engineering student',
-    search_period: 'Oct 2026 - Oct 2027',
-    search_domains: 'AI, Data Science, ML, Dev',
-    search_location: 'France (nationwide mobility)',
+    search_type: 'Apprentice at ARQUUS',
+    search_subtitle: 'Apprenticeship at ARQUUS \u00b7 Final year, ESAIP',
+    search_period: 'September 2026 - September 2027',
+    search_domains: 'On-premise generative AI, ML, LLM',
+    search_location: 'Versailles \u00b7 France (nationwide mobility)',
 
     // Formation
     formation_heading: 'Education',
     formation_esaip_title: 'Computer Engineering<br>& Networks<br>AI Major',
     formation_esaip_school: 'ESAIP, Angers',
-    formation_esaip_date: 'Since 2022<br>Currently in 4th year',
+    formation_esaip_date: '2022 - 2027<br>Final year, apprenticeship',
     formation_esaip_desc: 'Machine Learning, Deep Learning, Data Engineering, Multi-criteria optimization, Image processing, Cybersecurity, DevOps, Backend development, Networks, Windows Admin, Agile project management',
     formation_erasmus_title: 'Erasmus Semester',
     formation_erasmus_school: 'Obuda University, Budapest',
@@ -318,24 +329,33 @@ const translations = {
     experiences_heading: 'Professional experience',
     experiences_intro: 'A variety of missions, from AI infrastructure design to on-the-ground operations.',
 
+    // ARQUUS
+    exp_arquus_title: 'On-premise AI Solutions<br>Engineer (apprenticeship)',
+    exp_arquus_location: 'Versailles',
+    exp_arquus_date: 'September 2026 - present',
+    exp_arquus_mission_1: 'Running and hardening an on-premise generative AI platform (LM Studio, OpenWebUI, Nginx)',
+    exp_arquus_mission_2: 'Industrialising document preprocessing: extraction, normalisation, indexing, answer relevance',
+    exp_arquus_mission_3: 'Building internal Python tooling and extending the MCP tools exposed to agents',
+    exp_arquus_mission_4: 'Access control, documentation and driving adoption across business teams',
+
     // Tatin
     exp0_badge: 'R&D Internship',
     exp0_title_page: 'Tatin - AI Automation & Integration Intern',
     exp0_date_page: 'Remote \u00b7 January 2026 - February 2026',
-    exp0_mission_1_page: 'Design and development of NutriTracker, a PWA for nutrition tracking via voice dictation (meal logging in < 5s using NLP).',
+    exp0_mission_1_page: 'End-to-end development of NutriTracker, a nutrition-tracking PWA, from data schema to interface',
     exp0_mission_2_page: 'Deployment of complex automation workflows using n8n (Twilio, Resend, Google authentication).',
     exp0_mission_3_page: 'Integration of cascading LLM parsing (Groq/Cerebras) for NLP analysis of voice dictations.',
     exp0_mission_4_page: 'Cloud architecture and relational database management on Supabase.',
     exp0_title: 'Automation &<br>AI Integration Intern',
     exp0_location: 'La Roche-sur-Yon',
     exp0_date: 'January 2026 - February 2026',
-    exp0_mission_1: 'End-to-end development of the full-stack NutriTracker application (PWA) (5x faster user input via AI)',
+    exp0_mission_1: 'End-to-end development of NutriTracker, a nutrition-tracking PWA, from data schema to interface',
     exp0_mission_2: 'Deployment of complex automation workflows with n8n (Twilio, Resend, API)',
     exp0_mission_3: 'Integration of cascading LLM models (Groq/Cerebras) for fine-grained voice dictation analysis',
     exp0_mission_4: 'Setup of backend architecture and authentication with Supabase',
 
     // Alitheia
-    exp1_title: 'AI & Infrastructure Development Intern',
+    exp1_title: 'AI Development & Document Processing Intern',
     exp1_location: 'Budapest',
     exp1_date: 'June 2025 - August 2025',
     exp1_mission_1: 'Developed Python pipeline for automated processing of <strong class="text-gray-900">40,000 manuscript pages</strong>',
@@ -462,7 +482,7 @@ const translations = {
 
     // Contact
     contact_heading: 'Contact Me',
-    contact_intro: 'I am currently <strong class="text-blue-600">looking for an apprenticeship for my 5th year (October 2026 - October 2027)</strong>. Feel free to contact me to discuss my profile.',
+    contact_intro: 'I complete my ESAIP engineering degree in September 2027. Feel free to reach out to discuss my profile or a project.',
     contact_email_label: 'Email',
     contact_phone_label: 'Phone',
     contact_linkedin_label: 'LinkedIn',
@@ -479,7 +499,7 @@ const translations = {
     footer_github: 'GitHub',
     footer_linkedin: 'LinkedIn',
     footer_signature: '\u00a9 2026 Ga\u00ebl Le Reun. All rights reserved.',
-    footer_cta: 'Available for apprenticeship from October 2026 - Contact me',
+    footer_cta: 'AI apprentice at ARQUUS until September 2027 \u00b7 Get in touch',
 
     // Formation Tags
     tag_ml: 'Machine Learning',

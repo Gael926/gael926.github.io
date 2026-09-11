@@ -69,23 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- Interactive Effects ---
   // These are user-triggered (mouse-driven) so they run regardless of reduced motion
 
-  // (A) Hero Mouse-Following Ambient Glow
-  const heroGlowArea = document.getElementById('heroGlowArea');
-  const heroGlow = document.getElementById('heroGlow');
-  console.log('[Portfolio] Hero glow setup:', { heroGlowArea: !!heroGlowArea, heroGlow: !!heroGlow });
-  if (heroGlowArea && heroGlow) {
-    heroGlowArea.addEventListener('mousemove', (e) => {
-      const rect = heroGlowArea.getBoundingClientRect();
-      heroGlow.style.left = (e.clientX - rect.left) + 'px';
-      heroGlow.style.top = (e.clientY - rect.top) + 'px';
-      if (!heroGlow.classList.contains('active')) {
-        heroGlow.classList.add('active');
-      }
-    });
-    heroGlowArea.addEventListener('mouseleave', () => {
-      heroGlow.classList.remove('active');
-    });
-  }
+
 
   // (B) Animated Stat Counters
   const counters = document.querySelectorAll('[data-counter]');
