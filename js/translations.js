@@ -21,7 +21,7 @@ const translations = {
 
     // Hero
     hero_name: 'Ga\u00ebl Le Reun',
-    hero_subtitle: 'Ing\u00e9nieur IA en alternance chez <span class="text-gradient-animated">ARQUUS</span> \u00b7 ESAIP, majeure IA',
+    hero_subtitle: 'Ing\u00e9nieur IA en alternance chez <a href="https://www.arquus-defense.com/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700 hover:underline transition-colors">ARQUUS</a> \u00b7 ESAIP, majeure IA',
     hero_availability_text: 'Alternance chez ARQUUS \u00b7 Septembre 2026 - Septembre 2027',
     hero_tagline: 'J\'administre une plateforme d\'IA g\u00e9n\u00e9rative on-premise et je construis des syst\u00e8mes ML et LLM qui tiennent en production, <strong class="text-gray-900 font-semibold">mesur\u00e9s plut\u00f4t qu\'estim\u00e9s</strong>.',
     button_contact: 'Me contacter',
@@ -67,7 +67,7 @@ const translations = {
 
     // Experiences
     experiences_heading: 'Exp\u00e9riences professionnelles',
-    experiences_intro: 'Des missions vari\u00e9es, de la conception d\'infrastructures IA \u00e0 la gestion op\u00e9rationnelle de terrain.',
+    experiences_intro: 'De l\'automatisation et du traitement de donn\u00e9es \u00e0 l\'exploitation d\'une plateforme d\'IA en production.',
 
     // ARQUUS
     exp_arquus_title: 'Alternant Ing\u00e9nieur solutions IA<br>on-premise',
@@ -281,7 +281,7 @@ const translations = {
 
     // Hero
     hero_name: 'Ga\u00ebl Le Reun',
-    hero_subtitle: 'AI engineer, apprentice at <span class="text-gradient-animated">ARQUUS</span> \u00b7 ESAIP, AI major',
+    hero_subtitle: 'AI engineer, apprentice at <a href="https://www.arquus-defense.com/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700 hover:underline transition-colors">ARQUUS</a> \u00b7 ESAIP, AI major',
     hero_availability_text: 'Apprenticeship at ARQUUS \u00b7 September 2026 - September 2027',
     hero_tagline: 'I run an on-premise generative AI platform and build ML and LLM systems that hold up in production, <strong class="text-gray-900 font-semibold">measured rather than estimated</strong>.',
     button_contact: 'Contact me',
@@ -327,7 +327,7 @@ const translations = {
 
     // Experiences
     experiences_heading: 'Professional experience',
-    experiences_intro: 'A variety of missions, from AI infrastructure design to on-the-ground operations.',
+    experiences_intro: 'From automation and data processing to running an AI platform in production.',
 
     // ARQUUS
     exp_arquus_title: 'On-premise AI Solutions<br>Engineer (apprenticeship)',
